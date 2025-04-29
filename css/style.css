@@ -1,0 +1,58 @@
+/* body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: 'Cinzel Decorative', cursive;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Cinzel Decorative', cursive;
+    color: #fff;
+    text-align: center;
+}
+
+.theater h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #000;
+}
+
+.screen {
+    background: #000;
+    border: 10px solid gold;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0 0 30px gold;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background: gold;
+    color: #000;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #fff700;
+    transform: scale(1.05);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sadaf's Cinema 🎬🍿</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="theater">
+        <h1>Welcome to Sadaf's Theater 🎥✨</h1>
+        
+        <div class="screen">
+            <video id="myVideo" controls>
+                <source src="media/6088913631607527106.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="buttons">
+            <button onclick="playAgain()">Play Again</button>
+            <button onclick="rateMovie()">Rate Movie</button>
+        </div>
+    </section>
+
+    <script>
+        function playAgain() {
+            const video = document.getElementById("myVideo");
+            video.currentTime = 0;
+            video.play();
+        }
+
+        function rateMovie() {
+            alert("Thanks for rating the movie, Sadaf!");
+        }
+    </script>
+</body>
+</html>
